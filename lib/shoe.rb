@@ -6,15 +6,15 @@ def initialize(brand)
 end
 def cobble
   puts "Your shoe is as good as new!"
-  :condition = new
+  :condition= new
 end
 end
 
 shoe = Shoe.new("nike")
-shoe.color = "red"
-shoe.size = 9.5
-shoe.material = "suede"
-shoe.condition = "tattered"
+shoe.color= "red"
+shoe.size= 9.5
+shoe.material= "suede"
+shoe.condition= "tattered"
 
 shoe.cobble
 
