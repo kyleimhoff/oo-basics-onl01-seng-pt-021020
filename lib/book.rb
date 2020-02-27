@@ -31,5 +31,5 @@ end
 
 
 book = Book.new("And Then There Were None")
+
 book.turn_page
-book.page_count = 272
