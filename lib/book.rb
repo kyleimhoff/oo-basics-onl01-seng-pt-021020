@@ -12,7 +12,7 @@ def author
   @author
 end
 def page_count=(num)
-  @page_count = page_count
+  @page_count = num
 end
 def page_count
   @page_count
@@ -31,5 +31,5 @@ end
 
 
 book = Book.new("And Then There Were None")
-book.page_count = 272
+book.page_count= 272
 book.turn_page
